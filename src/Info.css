@@ -1,0 +1,36 @@
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #4b9b69;
+  text-align: justify;
+}
+
+.info-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.info-image {
+  width: 70%;
+  margin: 0 10px 20px 0;
+}
+
+.info-link {
+  margin-right: 10px;
+}
+
+.info-description {
+  margin-bottom: 20px;
+}
+
+.info-description-subtitle {
+  margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .info-image {
+    width: 33%;
+    margin: 0 20px 20px 0;
+  }
+}
